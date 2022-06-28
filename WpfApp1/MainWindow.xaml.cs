@@ -19,6 +19,8 @@ namespace WpfApp1
     /// Logika interakcji dla klasy MainWindow.xaml
     /// </summary>
     /// 123123123123
+    /// 345346
+  
 
     public partial class MainWindow : Window
     {
