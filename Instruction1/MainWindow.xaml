@@ -16,7 +16,7 @@
                 </LinearGradientBrush>
             </Button.OpacityMask>
         </Button>
-        <Button x:Name="Danger" Margin ="300,45,200,300" Click="Button_Click" Content="Do not push this Button"></Button>
+        
         <Label x:Name="Label_Count" Content="Licznik&#xD;&#xA;Kliknięć" HorizontalAlignment="Left" Margin="356,254,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.446,0.632" Height="51" Width="118" FontWeight="Bold" FontFamily="Cascadia Code SemiBold"/>
 
 
