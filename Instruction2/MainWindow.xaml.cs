@@ -23,8 +23,15 @@ namespace Instruction2
         public MainWindow()
         {
             InitializeComponent();
-            Button button = new Button();
-            button.Content = "Inna metoda na przycisk";
+
+            Button a = new Button();
+            a.Content = "123";
+            siatka.Children.Add(a);
         }
+       
     }
+
+
 }
+
+
