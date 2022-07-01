@@ -6,7 +6,19 @@
         xmlns:local="clr-namespace:Instruction2"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid x:Name="siatka" Margin="140,120,266,140">
+    <Grid Name="Grid">
         
+        <Button Content="Kliknij mnie" Name="add" Click="Button_Click" HorizontalAlignment="Left" Margin="251,147,0,0" VerticalAlignment="Top" Height="65" Width="242" ClickMode="Press" Background="#FFBB2F2F" FontWeight="Bold" FontFamily="Arial Black" FontSize="16">
+        </Button>
+        <Button Name="Image" Click="Button_Click_1"  Margin="56,10,32,53">
+            <Grid>
+                <Image Source="Image\pobrane.jpg"></Image>
+
+                <Button Name="SecondButton" Click="Button_Click_1" Content ="SecondButton" Margin= "220,80,64,15" Background="#FFE03E3E" RenderTransformOrigin="0.5,0.5"></Button>
+
+            </Grid>
+            
+            
+        </Button>
     </Grid>
 </Window>

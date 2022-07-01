@@ -24,11 +24,17 @@ namespace Instruction2
         {
             InitializeComponent();
 
-            Button a = new Button();
-            a.Content = "123";
-            siatka.Children.Add(a);
         }
-       
+
+        private void Button_Click(object sender, RoutedEventArgs click)
+        {
+
+        }
+        private void Button_Click_1(object sender, RoutedEventArgs click)
+        {
+            Image.Content = "Ups";
+            MessageBox.Show("Ups");
+        }
     }
 
 
