@@ -45,7 +45,7 @@ namespace Instruction_3
             Button_2_2.Content = string.Empty;
             //zerowanie gry
 
-            Button_0_0.Background = Brushes.White;
+            Button_0_0.Background =Brushes.White;
             Button_1_0.Background= Brushes.White;
             Button_2_0.Background= Brushes.White;
             Button_0_1.Background= Brushes.White;
