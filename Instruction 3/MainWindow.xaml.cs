@@ -58,7 +58,7 @@ namespace Instruction_3
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            IsPlayer1Turn ^= true;//p1 zaczyna 1
+            IsPlayer1Turn ^= true;//p1 zaczyna pierwszy
 
             Counter++;
 
